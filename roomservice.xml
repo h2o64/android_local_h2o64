@@ -11,6 +11,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/external/bluetooth/bluedroid" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/packages/apps/Bluetooth" />
 
   <project path="build" name="h2o64/android_build" groups="pdk" remote="github" revision="aosp-5.0">
@@ -42,5 +43,6 @@
 <!-- External -->
   <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-5.0" />
   <project path="external/bluetooth/bluedroid" name="h2o64/android_external_bluetooth_bluedroid" remote="github" revision="aosp-5.0" />
+  <project path="external/f2fs-tools" name="h2o64/android_external_f2fs-tools" remote="github" revision="aosp-5.0" />
 <!-- END External -->
 </manifest>
