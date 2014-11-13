@@ -1,48 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="git://github.com/" />
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-
-  <remove-project name="platform/build" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/external/bluetooth/bluedroid" />
-  <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-
-  <project path="build" name="h2o64/android_build" groups="pdk" remote="github" revision="aosp-5.0">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <project name="h2o64/android_system_core" path="system/core" remote="github" revision="aosp-5.0" />
-
-<!-- Hardware -->
-  <project name="h2o64/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-5.0" />
-  <project name="h2o64/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="aosp-5.0"/>
-  <project name="h2o64/hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="aosp-5.0"/>
-  <project name="h2o64/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="aosp-5.0"/>
-  <project name="h2o64/hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="aosp-5.0"/>
-<!-- END Hardware -->
-
-<!-- Falcon Stuff -->
-  <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lollipop" /> 
-  <project name="h2o64/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="aosp-5.0" /> 
-  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="aosp-5.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
-<!-- END Falcon Stuff -->
-
-<!-- Packages -->
-  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="aosp-5.0" />
-<!-- END Packages -->
-
-<!-- External -->
-  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-5.0" />
-  <project path="external/bluetooth/bluedroid" name="h2o64/android_external_bluetooth_bluedroid" remote="github" revision="aosp-5.0" />
-  <project path="external/f2fs-tools" name="h2o64/android_external_f2fs-tools" remote="github" revision="aosp-5.0" />
-<!-- END External -->
+  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revison="cm-12.0"/>
+  <project name="h2o64/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revison="cm-12.0"/>
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0"/>
+  <project name="h2o64/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-12.0"/>
+  <project name="Alberto97/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lollipop"/>
+  <project name="h2o64/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.0"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/default" remote="github" revision="cm-12.0-caf-msm8226"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="cm-12.0-caf-msm8226"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="cm-12.0-caf-msm8226"/>
 </manifest>
