@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_external_qrngd" />
-
-  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revison="cm-12.0"/>
-  <project name="h2o64/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revison="cm-12.0"/>
-  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0"/>
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.0" />
-  <project name="h2o64/android_external_qrngd" path="external/qrngd" remote="github" revision="cm-12.0"/>
+  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
+  <project name="h2o64/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0_custom"/>
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
 
 <!-- TOOLCHAINS - DISABLED-->
   <!-- <project name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-4.8"/>
