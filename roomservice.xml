@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
-  <project name="h2o64/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0_custom"/>
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
-
-<!-- TOOLCHAINS - DISABLED-->
-  <!-- <project name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-4.8"/>
-  <project name="UBERUTILS/arm-eabi-4.10" remote="github" revision="master" path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-SM-4.10"/> -->
-<!--END TOOLCAHINS -->
+  <project name="anerikg/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lp5.0" />
+  <project name="h2o64/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="lp5.0" />
+  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-12.0"/>
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
+  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.0" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.0" />
+  
+  <!-- USES AOSPARADOX TOOLCHAINS -->
 </manifest>
