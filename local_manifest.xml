@@ -15,6 +15,7 @@
   <project path="hardware/qcom/audio-caf/msm8226" name="h2o64/android_hardware_qcom_audio" revision="cm-12.1-caf" />
   <project path="hardware/qcom/display-caf/msm8226" name="h2o64/android_hardware_qcom_display" revision="cm-12.1-caf" />
   <project path="hardware/qcom/media-caf/msm8226" name="h2o64/android_hardware_qcom_media" revision="cm-12.1-caf" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
   <project path="packages/apps/CMUpdater" name="h2o64/android_packages_apps_CMUpdater" revision="cm-12.1-caf" />
 
  <!--Repositories to remove-->
