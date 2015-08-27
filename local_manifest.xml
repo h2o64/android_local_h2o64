@@ -2,6 +2,7 @@
 <manifest>
 
  <!--Repositories to replace-->
+  <remove-project name="CyanogenMod/android_external_f2fs-tools" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
@@ -12,6 +13,7 @@
   <project path="kernel/motorola/msm8226" name="h2o64/kernel_msm" revision="cm-12.1-caf" />
   <project path="vendor/motorola/falcon" name="h2o64/proprietary_vendor_motorola" revision="cm-12.1-caf" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
+  <project path="external/f2fs-tools" name="h2o64/android_external_f2fs-tools" revision="cm-12.1-caf" />
   <project path="hardware/qcom/audio-caf/msm8226" name="h2o64/android_hardware_qcom_audio" revision="cm-12.1-caf" />
   <project path="hardware/qcom/display-caf/msm8226" name="h2o64/android_hardware_qcom_display" revision="cm-12.1-caf" />
   <project path="hardware/qcom/media-caf/msm8226" name="h2o64/android_hardware_qcom_media" revision="cm-12.1-caf" />
