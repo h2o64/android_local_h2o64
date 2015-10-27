@@ -7,6 +7,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_external_boringssl" />
+  <remove-project name="CyanogenMod/android_external_mm-dash" />
 
  <!--Repositories to fetch-->
   <project path="device/motorola/falcon" name="h2o64/android_device_motorola_falcon" revision="cm-13.0-caf" />
