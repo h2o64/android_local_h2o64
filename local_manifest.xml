@@ -2,49 +2,33 @@
 <manifest>
 
  <!--Repositories to replace-->
-  <remove-project name="CyanogenMod/android_external_f2fs-tools" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
  <!--Repositories to fetch-->
-  <project path="device/motorola/falcon" name="h2o64/android_device_motorola_falcon" revision="cm-12.1-caf" />
-  <project path="kernel/motorola/msm8226" name="h2o64/kernel_msm" revision="cm-12.1-caf" />
-  <project path="vendor/motorola/falcon" name="h2o64/proprietary_vendor_motorola" revision="cm-12.1-caf" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
-  <project path="external/f2fs-tools" name="h2o64/android_external_f2fs-tools" revision="cm-12.1-caf" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="h2o64/android_hardware_qcom_audio" revision="cm-12.1-caf" />
-  <project path="hardware/qcom/display-caf/msm8226" name="h2o64/android_hardware_qcom_display" revision="cm-12.1-caf" />
-  <project path="hardware/qcom/media-caf/msm8226" name="h2o64/android_hardware_qcom_media" revision="cm-12.1-caf" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
-  <project path="packages/apps/CMUpdater" name="h2o64/android_packages_apps_CMUpdater" revision="cm-12.1-caf" />
+  <project path="device/motorola/falcon" name="h2o64/android_device_motorola_falcon" revision="cm-13.0-caf" />
+  <project path="kernel/motorola/msm8226" name="h2o64/kernel_msm" revision="cm-13.0-caf" />
+  <project path="vendor/motorola/falcon" name="h2o64/proprietary_vendor_motorola" revision="cm-13.0-caf" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="h2o64/android_hardware_qcom_audio" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/display-caf/msm8226" name="h2o64/android_hardware_qcom_display" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/media-caf/msm8226" name="h2o64/android_hardware_qcom_media" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-13.0" />
+  <project path="packages/apps/CMUpdater" name="h2o64/android_packages_apps_CMUpdater" revision="cm-13.0-caf" />
 
  <!--Repositories to remove-->
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
-  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
-  <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
-  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 </manifest>

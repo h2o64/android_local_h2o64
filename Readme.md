@@ -1,7 +1,7 @@
-CyanogenMod CM-12.1 CAF for the Moto G 2013 (falcon)
+CyanogenMod CM-13.0 CAF for the Moto G 2013 (falcon)
 ====================================================
 
-	This ROM is basically my custom CM12.1. It's not about features but just underground bringup.
+	This ROM is basically my custom CM13.0. It's not about features but just underground bringup.
 I made the kernel myself, I modified the trees myself and we are using the latest MSM8226 CAF display/audio/media HALs.
 
 *Credits*
