@@ -12,7 +12,7 @@
  <!--Repositories to fetch-->
   <project path="device/motorola/falcon" name="h2o64/android_device_motorola_falcon" revision="cm-13.0-caf" />
   <project path="kernel/motorola/msm8226" name="h2o64/kernel_msm" revision="cm-13.0-caf" />
-  <project path="vendor/motorola/falcon" name="h2o64/proprietary_vendor_motorola" revision="cm-13.0-caf" />
+  <project path="vendor/motorola/falcon" name="AOSParadox/proprietary_vendor_motorola" revision="marshmallow_falcon" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm8226" name="h2o64/android_hardware_qcom_audio" revision="cm-13.0-caf" />
   <project path="hardware/qcom/display-caf/msm8226" name="h2o64/android_hardware_qcom_display" revision="cm-13.0-caf" />
