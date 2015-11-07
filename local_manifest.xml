@@ -20,6 +20,7 @@
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-13.0" />
   <project path="packages/apps/CMUpdater" name="h2o64/android_packages_apps_CMUpdater" revision="cm-13.0-caf" />
   <project path="external/boringssl" name="aosparadox/android_external_boringssl" revision="marshmallow_msm8974" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" />
 
  <!--Repositories to remove-->
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
